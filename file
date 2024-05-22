@@ -1,0 +1,6 @@
+#!/bin/bash
+ec2-user
+sudo yum install httpd -y
+cd /var/www/html
+echo "welcome to hyd" >index.html
+sudo service httpd restart
